@@ -1,0 +1,32 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "username": "johnsmith",
+    "email": "john.smith@email.com",
+    "password": "$2b$12$TH3axCVbvSmrBiqdHbBwtOj9IWbAB3iYXhZRbZlijFISxSQZkCYLm"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "username": "sarahjones",
+    "email": "sarah.jones@email.com",
+    "password": "$2b$12$gAaWDCq7wM5hAiYY8630LukCINRDQJs5N.Jmoj2sBA4FTh9k2xONS"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "username": "mikebrown",
+    "email": "mike.brown@email.com",
+    "password": "$2b$12$odRqApGFEHjgddQHVHd4Z.4znvQ8RmocxiEaYUyn6hXqGdwCWpWz."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "username": "emilydavis",
+    "email": "emily.davis@email.com",
+    "password": "$2b$12$eR58wWvSkZt7I7WoWJoTmuPIIKxkPT3cHsPbJNscJvFEQB570fn/O"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "username": "davidwilson",
+    "email": "david.wilson@email.com",
+    "password": "$2b$12$VRzu7xIecXFxO17G3IRIBe61k2bRpvZafLYS92cU4Pp4K0zTMVSSq"
+  }
+]
