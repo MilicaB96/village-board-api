@@ -1,0 +1,128 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174001",
+    "userId": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "Welcome to Our Village Board",
+    "body": "Hello everyone! I'm excited to share updates about our beautiful village community. There's so much happening and I wanted to create a space where we can all stay connected.",
+    "createdAt": "2025-07-15T10:30:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
+    "userId": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "Community Garden Update",
+    "body": "Great news! The community garden is thriving. We've harvested our first batch of vegetables and they're available at the village market. Thank you to all the volunteers who helped maintain it.",
+    "createdAt": "2025-07-25T09:30:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174019",
+    "userId": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "Annual Town Hall Meeting",
+    "body": "Don't forget about our annual town hall meeting this Thursday at 6 PM. We'll discuss the budget, upcoming projects, and address any community concerns. Your voice matters!",
+    "createdAt": "2025-07-30T08:15:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174020",
+    "userId": "550e8400-e29b-41d4-a716-446655440001",
+    "title": "New Village Website Launch",
+    "body": "We're excited to launch our new village website! You can now find community news, event calendars, and important announcements all in one place. Check it out at villageboards.com",
+    "createdAt": "2025-08-01T11:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
+    "userId": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Local Business Spotlight",
+    "body": "I want to highlight our amazing local bakery that's been serving fresh bread and pastries for over 20 years. Their croissants are absolutely delicious and perfect for weekend mornings.",
+    "createdAt": "2025-07-16T08:20:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
+    "userId": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Neighborhood Watch Meeting",
+    "body": "Monthly neighborhood watch meeting scheduled for next Tuesday at 7 PM at the community center. We'll discuss recent activities and safety measures for our area.",
+    "createdAt": "2025-07-22T16:30:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
+    "userId": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Lost Cat - Please Help",
+    "body": "My orange tabby cat Whiskers has been missing since yesterday evening. He's friendly and responds to his name. If you've seen him around the Oak Street area, please contact me. Reward offered!",
+    "createdAt": "2025-07-28T12:10:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
+    "userId": "550e8400-e29b-41d4-a716-446655440002",
+    "title": "Book Club Recommendations",
+    "body": "Our village book club is looking for suggestions for next month's read. We enjoy mysteries, historical fiction, and contemporary novels. Drop your recommendations in the comments!",
+    "createdAt": "2025-07-30T19:25:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174008",
+    "userId": "550e8400-e29b-41d4-a716-446655440003",
+    "title": "Road Construction Notice",
+    "body": "Attention residents: Main Street will undergo repairs starting Monday. Expect delays and use alternative routes when possible. Construction is expected to last two weeks.",
+    "createdAt": "2025-07-18T11:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174009",
+    "userId": "550e8400-e29b-41d4-a716-446655440003",
+    "title": "Youth Soccer League Registration",
+    "body": "Registration is now open for the fall youth soccer league! Ages 6-16 welcome. Practices start in September. Sign up at the recreation center or visit our website for more information.",
+    "createdAt": "2025-07-21T13:45:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174010",
+    "userId": "550e8400-e29b-41d4-a716-446655440003",
+    "title": "Recycling Program Changes",
+    "body": "Important update: Starting August 1st, glass recycling will be collected separately on the first Monday of each month. Please sort glass items and place them in the designated green bins.",
+    "createdAt": "2025-07-26T15:20:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174011",
+    "userId": "550e8400-e29b-41d4-a716-446655440004",
+    "title": "Village Farmers Market",
+    "body": "Don't miss our weekly farmers market every Saturday from 8 AM to 2 PM! Fresh produce, homemade goods, and local crafts. Support our local farmers and artisans.",
+    "createdAt": "2025-07-19T07:30:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174012",
+    "userId": "550e8400-e29b-41d4-a716-446655440004",
+    "title": "Senior Center Activities",
+    "body": "The senior center has added new activities! Chair yoga on Tuesdays, card games on Thursdays, and guest speakers every Friday. All seniors welcome to join our growing community.",
+    "createdAt": "2025-07-23T10:15:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174013",
+    "userId": "550e8400-e29b-41d4-a716-446655440004",
+    "title": "Holiday Decorating Contest",
+    "body": "Mark your calendars! Our annual holiday decorating contest will take place in December. Categories include best lights display, most creative theme, and family favorite. Prizes to be announced!",
+    "createdAt": "2025-07-29T17:50:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174014",
+    "userId": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "New Playground Equipment",
+    "body": "Exciting news for families! New playground equipment has been installed at Memorial Park. The new swings, slides, and climbing structures are now open for children to enjoy safely.",
+    "createdAt": "2025-07-17T12:40:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174015",
+    "userId": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "Village Clean-Up Day",
+    "body": "Join us for our quarterly village clean-up day this Saturday! We'll provide supplies and refreshments. Meet at the town hall at 9 AM. Let's keep our community beautiful together!",
+    "createdAt": "2025-07-24T14:00:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174016",
+    "userId": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "Historical Society Fundraiser",
+    "body": "The Village Historical Society is hosting a fundraising dinner next month. Proceeds will help preserve our local history and maintain historical buildings. Tickets available at the library.",
+    "createdAt": "2025-07-27T18:35:00.000Z"
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174017",
+    "userId": "550e8400-e29b-41d4-a716-446655440005",
+    "title": "Walking Group Formation",
+    "body": "Looking to form a morning walking group! Meet at the park entrance every weekday at 7 AM for a healthy start to the day. All fitness levels welcome. Let's motivate each other to stay active!",
+    "createdAt": "2025-07-31T06:45:00.000Z"
+  }
+]

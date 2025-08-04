@@ -1,5 +1,6 @@
 const express = require("express");
 const auth = require("./routes/auth.route");
+const post = require("./routes/post.route");
 import type { Request, Response } from "express";
 
 require("dotenv").config();
@@ -11,6 +12,7 @@ app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 app.use("/auth", auth);
+app.use("/post", post);
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello World!");
