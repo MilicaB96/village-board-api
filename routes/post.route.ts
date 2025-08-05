@@ -3,6 +3,7 @@ import { AuthenticatedRequest } from "../interfaces/auth.interface";
 const { Router } = require("express");
 const {
   getPostsByUserId,
+  getPostById,
   deletePost,
   updatePost,
   createPost,
@@ -16,6 +17,7 @@ const {
 } = require("../middleware/postValidation.middleware");
 const postRouter = Router();
 const postLimitMiddleware = require("../middleware/postLimit.middleware");
+const friendsMiddleware = require("../middleware/friends.middleware");
 
 //get my posts
 postRouter.get(
@@ -100,7 +102,55 @@ postRouter.post(
   }
 );
 
-//get friends posts -later
-//crud my post (get *, else only token userId)
+//get friends posts
+postRouter.get(
+  "/friends/:friendId",
+  authMiddleware,
+  friendsMiddleware,
+  async (req: AuthenticatedRequest, res: Response) => {
+    try {
+      const friendId = req.params.friendId;
+
+      if (!friendId) {
+        return res.status(400).json({ message: "Friend ID is required" });
+      }
+
+      const posts = await getPostsByUserId(friendId);
+      res.status(200).json(posts);
+    } catch (error) {
+      res.status(500).json({ message: "Internal error" });
+    }
+  }
+);
+
+//get friends post
+postRouter.get(
+  "/friends/:friendId/:postId",
+  authMiddleware,
+  friendsMiddleware,
+  async (req: AuthenticatedRequest, res: Response) => {
+    try {
+      const friendId = req.params.friendId;
+      const postId = req.params.postId;
+
+      const post = await getPostById(postId);
+
+      if (!post) {
+        return res.status(404).json({ message: "Post not found" });
+      }
+
+      // Ensure the post belongs to the friend we're trying to access
+      if (post.userId.toString() !== friendId.toString()) {
+        return res.status(403).json({
+          message: "This post does not belong to the specified friend",
+        });
+      }
+
+      res.status(200).json(post);
+    } catch (error) {
+      res.status(500).json({ message: "Internal error" });
+    }
+  }
+);
 
 module.exports = postRouter;
